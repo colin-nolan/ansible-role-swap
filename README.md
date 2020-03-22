@@ -40,6 +40,10 @@ Period (in seconds) between checks on if the swap file has been created .
 
     swap_file_create_poll_period_in_seconds: 5
 
+Mount options for the swap file entry in fstab can be customised.
+
+    swap_mount_opts: sw
+
 ## Dependencies
 
 None.
